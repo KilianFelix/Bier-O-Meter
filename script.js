@@ -27,10 +27,10 @@ function beerChange() {
         return;
     }
 
-    document.title = ("Bier-O-Meter " + (beerDrank / 100) + "/" + (beerTotal / 100));
+    document.title = ("Bier-O-Meter " + (beerDrank / 1000) + "/" + (beerTotal / 1000));
 
-    document.getElementById("beerTextFull").textContent = ((beerTotal / 100) + " L")
-    document.getElementById("beerTextHalf").textContent = ((beerTotal / 100) / 2 + " L")
+    document.getElementById("beerTextFull").textContent = ((beerTotal / 1000) + " L")
+    document.getElementById("beerTextHalf").textContent = ((beerTotal / 1000) / 2 + " L")
     
     beer.style.height = (beerHeight + "px");
     beer.style.top = (glassHeight - beerHeight - 29 + "px");
