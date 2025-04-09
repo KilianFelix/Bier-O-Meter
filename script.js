@@ -27,6 +27,8 @@ function beerChange() {
         return;
     }
 
+    document.title = ("Bier-O-Meter " + (beerDrank / 100) + "/" + (beerTotal / 100));
+
     document.getElementById("beerTextFull").textContent = ((beerTotal / 100) + " L")
     document.getElementById("beerTextHalf").textContent = ((beerTotal / 100) / 2 + " L")
     
