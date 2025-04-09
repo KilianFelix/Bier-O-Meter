@@ -23,6 +23,13 @@ body {
     left: 0px;
 }
 
+#beerFoam {
+    position: absolute;
+    width: auto;
+    height: 150px;
+    left: 0px;
+}
+
 #beer {
     position: absolute;
     width: 300px;
@@ -30,4 +37,28 @@ body {
     height: 40px;
     top: 1040px;
     left: 0px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.full {
+    position: absolute;
+    top: 46px;
+    left: 90px;
+}
+
+.half {
+    position: absolute;
+    top: 510px;
+    left: 90px;
+}
+
+.empty {
+    position: absolute;
+    top: 1010px;
+    left: 90px;
 }
