@@ -17,7 +17,7 @@ function beerChange() {
 
     if(beerTotal === null) {
         console.log("Missing ?total=");
-        document.getElementById("beerTextFull").textContent = "Missing ?total=";
+        document.getElementById("beerTextHalf").textContent = "Missing ?total=";
         return;
     } 
     
