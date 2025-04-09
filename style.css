@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+#beerTexture {
+    position: absolute;
+    width: auto;
+    height: 1080px;
+    left: 0px;
+}
+
+#beerGlass {
+    position: absolute;
+    width: auto;
+    height: 1080px;
+    left: 0px;
+}
+
+#beerBase {
+    position: absolute;
+    width: auto;
+    height: 1080px;
+    left: 0px;
+}
+
+#beer {
+    position: absolute;
+    width: 300px;
+    overflow: hidden;
+    height: 40px;
+    top: 1040px;
+    left: 0px;
+}
